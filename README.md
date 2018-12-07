@@ -117,3 +117,50 @@ int main()
 
 4.Berikut Hasilnya
 ![img](https://raw.githubusercontent.com/aseps12/praktikum8/master/hasil2.png)
+
+#Latihan3#Pembagian dengan menggunakan fungsi rekursif
+```
+1.Alur Algoritmanya
+	-Mendefinisikan fungsi bagi
+```
+```c++
+int bagi(int a, int b)
+```
+```
+	-membuat rumus if dan pembagianya
+```
+```c++
+
+if (a<b) 
+        return 0;
+    else
+        return 1+bagi(a-b,b); 
+```
+2.Berikut kode lengkapnya
+```c++
+#include <iostream>
+
+using namespace std;
+int bagi(int a, int b)
+{
+    if (a<b)
+        return 0;
+    else
+        return 1+bagi(a-b,b);
+     
+}
+int main()
+{
+    int a,b;
+    cout << "Masukan bilangan pertama :";
+    cin>> a;
+    cout << "Masukan bilangan kedua :";
+    cin>> b;
+    cout<< " Hasil = " <<bagi (a,b);
+    return 0;
+}
+```
+
+3.Berikut hasilnya
+
+![img](https://raw.githubusercontent.com/aseps12/praktikum8/master/hasil3.png)
