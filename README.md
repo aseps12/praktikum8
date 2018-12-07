@@ -62,6 +62,7 @@ int main()
 ```
 
 3. Berikut flowchartnya
+
 ![img](https://raw.githubusercontent.com/aseps12/praktikum8/master/1.png)
 
 4.Berikut hasilnya
@@ -111,6 +112,7 @@ int main()
 ```
 
 3.Berikut flowchartnya
+
 ![img](https://raw.githubusercontent.com/aseps12/praktikum8/master/2.png)
 
 4.Berikut Hasilnya
