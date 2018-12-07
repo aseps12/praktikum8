@@ -60,6 +60,7 @@ int main()
     return 0;
 }
 ```
+
 3. Berikut flowchartnya
 ![img](https://raw.githubusercontent.com/aseps12/praktikum8/master/1.png)
 
@@ -108,6 +109,7 @@ int main()
     return 0;
 }
 ```
+
 3.Berikut flowchartnya
 ![img](https://raw.githubusercontent.com/aseps12/praktikum8/master/2.png)
 
